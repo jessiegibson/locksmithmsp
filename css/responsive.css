@@ -1,0 +1,188 @@
+/**********************************
+Navigation
+***********************************/
+@media only screen and (min-width : 320px) {
+  
+.container{
+    margin: auto;
+    width:320px;
+}
+    
+header ul {
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    }
+#logo {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    }
+#headerPhone {
+    width:100%;
+    color: #ffcc00;
+    text-align:center;
+    font-weight: 800;
+    font-size: 3em; 
+    border:5px solid #ffcc00;
+    border-radius: 40px;
+}
+
+#icon-auto {
+    
+    background-image: url('../img/icon-automotive.png');
+    background-size: 50px 50px;
+}
+#callnow {
+    color: #fff;
+    text-align:center;
+    font-weight: 400;
+    font-size: 2em; 
+}
+
+nav li {
+    width:100%;
+}
+    
+nav a {
+    color: #000;
+    font-size: 1.75em;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    }
+    
+nav ul {
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 15px;
+    }
+.navbar li{
+    display: block;
+    float:right;
+    background-color: #fff;
+    }
+    
+.navbar a {
+    margin:auto;
+    font-size: 1.7em;
+    }
+    
+.navbar img{
+    float:left;
+    background-size: 50px 50px;
+    }
+mobile li {
+    height: 50px;
+    width:100%;
+}
+}
+/**********************************
+MEDIA SCREEN 768px 
+***********************************/
+
+@media screen and (min-width: 675px) {
+ header body div ul{ 
+    margin:auto;
+     width:100%;
+ }
+
+.container {
+    width:100%;
+}
+
+#logo {
+    padding-left: 25px;
+    padding-right: 5px;
+    width: 20%;
+    float: left;
+    
+}
+   
+#headerPhone {
+    width:45%;
+    border: none;
+    list-style: none;
+    float:left;
+    
+}
+
+#callnow {
+    color: #fff;
+    text-align:center;
+    font-weight: 400;
+    font-size: 2em; 
+    width:25%;
+    float:right;
+    list-style: none;
+}
+
+.clearfix {
+    clear:both;
+}
+  
+ header ul { 
+     display: inline;
+    }
+    
+nav {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    
+}
+nav li {
+    width:15%;
+}
+nav a {
+    color: #fff;
+    font-size: 1em;
+    padding-top: 2px;
+    padding-left: 5px;
+    }
+    
+nav ul {
+    width:768px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    background-color: transparent;
+    }
+    
+.navbar li{
+    display: inline;
+    float:left;
+    background-color: transparent;
+    
+    }
+    
+.navbar img{
+    visibility: hidden;
+    background-size: 1px 1px;
+    }
+
+/*********************************************
+    DIV NAVIGATION
+**********************************************/
+    
+.container {
+    margin: auto;
+}
+
+
+#hero{
+    margin:auto;
+    max-width: 765px;
+    background-image: url('../img/locksmith-nyc.png');
+    min-width:765px;
+    min-height:405px;
+}
+    
+footer {
+    bottom: fixed;
+}
+    
+}

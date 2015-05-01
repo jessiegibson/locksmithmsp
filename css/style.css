@@ -1,0 +1,412 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
+
+/*************************************************
+COLORS
+***************************************************/
+body {  
+    background-color: #DCDCDC;
+    color: #000;
+    padding-bottom: 50px;
+}
+
+a {
+    border-bottom: 1px solid #34425e;
+}
+
+a:link {
+    color: #000;
+    text-decoration: none   ;
+    border-bottom: 1px dotted #34425e;
+}
+
+a:hover {
+    border-bottom-color: #ffffff;
+}
+
+a:hover {
+    color:#ffcc00;
+}
+
+img {
+    width:97%;
+}
+
+.hero-position img{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#photo-wrapper img{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#wrapperheadcta {
+    vertical-align: middle;
+}
+ 
+ .content-wrapper{
+    padding-left: 1em;
+ }
+
+/*The Contact wrapper changes the colors for the contact information 
+that is located directly underneath the Jumbotron on the home page.*/
+
+.mission-wrapper {
+    padding-top: 1em;
+    padding-left:1em;
+}
+
+/* Need to change the font size in media queries 
+    \/   \/ \/  \/  \/  \/  \/  
+*/
+#contact-number-cta p {
+    
+    font-size: 2.5em;
+    font-style: italic;
+    padding-left:15px;
+}
+
+#contact-phone-number {
+    font-size: 250%;
+    font-weight: 800;
+}
+
+/* /\  /\  /\  /\  /\  /\  /\  /\
+Need to change the font size in media queries */
+
+#contact-formating {
+    min-height: 150px;
+}
+
+.navbar { /* update the spacing for the navbar to make it more fluid, hopefully */
+    margin-bottom: 0;
+}
+
+.wrapper {
+    background-color: #fff;
+    padding-right:10px;
+}
+
+
+/*************************************************
+
+TYPOGRAPHY
+
+***************************************************/
+h1{
+    font-size: 44px;
+}
+
+h1 {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+/*************************************************
+
+THE POSITIONING AND SIZING FOR THE GUARANTEE SEAL
+
+***************************************************/
+ #guarantee {
+    padding-right:10px;
+    max-height: 100px;
+    max-width: 100px;
+    padding-bottom: 2em;
+ }
+/*
+}
+.page-slider {
+    padding: 15px;
+    margin-bottom: 25px;
+    color:inherit;
+}
+ */
+.page-slider>img {
+    width: 97.39678578%;
+    float:left;
+    min-height:1px;
+}
+
+
+
+
+/*************************************************
+HEADING
+***************************************************/
+
+#logo {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.phone:before {
+    content: "\2706";
+}
+
+#phoneNumber {
+    font-size: 3em;
+    font-weight: 800;
+    float: right;
+    font-style: oblique;
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-top: 2%;
+}
+
+#callnow {
+    font-weight: 600;
+    font-family: 'Baskerville', 'Helvetica', serif;
+    font-size: 3em;
+    font-style: oblique;
+    margin-top: 2%;
+
+    
+}
+
+.header-top{
+    margin-top: 0.50em;
+    margin-bottom: 0.75em;
+}
+
+
+
+
+
+
+/*************************************************
+NAVIGATION MENU ITEMS
+***************************************************/
+.menubuttons {
+    color: #fff !important;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    margin-left: 25px;
+    padding-left:10px;
+}
+
+#emergency {
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    width: 100%;
+    margin-left: 25px;
+    padding-left: 10px;
+    background-color: #c0392b;
+}
+
+
+
+
+
+/*************************************************
+WRAPPERS AND CONTENT 
+***************************************************/
+.hero ul {
+    list-style: none;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color:#222 !important;
+}
+.hero ul li {
+    padding-bottom: 0.25em;
+}
+
+.hero a:link{
+    color: #fff;
+}
+.hero a:hover{
+    border-bottom-color: #ffffff;
+    color:#ffcc00;
+}
+.wrappercontent{
+    background-color: white;
+    color: black;
+}
+
+
+.main-content-wrapper a:link{
+    color:#ffcc00;
+}
+
+#logo {
+    height:75%;
+    width: 75%;
+    
+}
+
+
+
+
+/*************************************************
+#SOCIAL MEDIA ICONS
+***************************************************/
+.automotive::before {
+    content: url(../img/icon-automotive.png);
+    margin: 0 8px;
+}
+.residential::before {
+    content: url(img/icon-residential.png);
+}
+.commercial {
+    background-image: url('img/icon-commercial.png');
+    max-height: 50px;
+    max-width: 50px;
+}
+.emergency {
+    background-image: url('img/icon-emergency.png');
+    max-height: 50px;
+    max-width: 50px;
+}
+
+
+
+
+
+
+/*************************************************
+#FOOTER
+***************************************************/
+
+footer {
+    background-color: #000000;
+    color: #666;
+    width:100%;
+    height: 250px;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 50px;
+    color: #ccc;
+}
+
+.footerwrapper {
+    color:#fff;
+}
+
+
+
+
+
+/*************************************************
+#MEDIA SCREENS 
+***************************************************/
+
+@media only screen and (max-width:479px){
+
+#headerPhone {
+    text-align: center;
+}
+
+#callnow {
+    left: 25px;
+}
+
+.logo img{
+    width:75%;
+    padding-left:15%;
+    margin-left:10%;
+}
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width:480px) {
+#headerPhone {
+    text-align: center;
+}
+
+#callnow {
+    
+}
+
+#contact-number-cta {
+    font-size: 1.75em;
+}
+
+#contact-phone-number {
+    font-size: 2em;
+    }
+
+#call-now-vertical-positioning {
+    padding-top:15px;
+    }
+.logo img{
+    width:50%;
+    padding-left:20%;
+    margin-left:15%;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (min-width:768px) {
+#headerPhone {
+    text-align: right;
+}
+
+#callnow {
+    
+}
+
+
+#subsection-positioning-fix { /* This fixed the margin between subsection & footer */
+    margin-bottom: 0.25em;
+}
+
+.logo img {
+    width: 75%;
+    padding-left:0px;
+    margin-left:0px;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (min-width:992px){
+
+    /*  Need to resize the #callnow and #phoneNumber's so that they are layed out correctly.  
+        
+    */
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width:1200px){
+ .page-slider>img {
+    width: 97.39678578%;
+ }
+.logo img{
+    width:100%;
+
+}
+
+
+}
+

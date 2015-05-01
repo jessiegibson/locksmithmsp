@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /inc/
+
+Sitemap: http://www.locksmithmsp.com/robot.txt
